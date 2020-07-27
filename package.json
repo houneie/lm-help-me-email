@@ -1,0 +1,25 @@
+{
+  "name": "lm-help-me-email",
+  "version": "1.0.0",
+  "description": "A node server that will receice and email addr in a GET Request and will send Help me to that email.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/houneie/lm-help-me-email.git"
+  },
+  "author": "Abdul Rehman",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/houneie/lm-help-me-email/issues"
+  },
+  "homepage": "https://github.com/houneie/lm-help-me-email#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "nodemailer": "^6.4.10"
+  },
+  "devDependencies": {},
+  "keywords": []
+}
