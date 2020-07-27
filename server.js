@@ -1,4 +1,3 @@
-"use strict";
 const nodemailer = require("nodemailer");
 const express = require('express');
 const app = express();
@@ -38,5 +37,9 @@ app.get('/helpMe', (req, res) => {
     res.send("Sent")
   })
 
-app.listen(80)
+// set port, listen for requests
+const PORT = process.env.PORT || 80;
+app.listen(PORT, () => {
+  console.log(`Server is running on port ${PORT}.`);
+});
 
